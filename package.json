@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "Api for Tikkit application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Shawn Kebel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackal73/ecommerce-api.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12",
+    "stripe": "^8.174.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Jackal73/ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/Jackal73/ecommerce-api#readme"
+}
